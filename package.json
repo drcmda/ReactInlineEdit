@@ -1,8 +1,10 @@
 {
   "name": "react-edit-inline",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A simple inline text editor for React with ECMAScript 6 + JSX Harmony syntax",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "jsnext:main": "index.js",
+  "module": "index.js",
   "scripts": {
     "start": "babel index.js --out-dir dist/"
   },
